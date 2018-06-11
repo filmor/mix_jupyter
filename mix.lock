@@ -1,0 +1,14 @@
+%{
+  "chumak": {:hex, :chumak, "1.3.0", "425e64819f64149122a43090e2c6c4732e042d7deb1d416bc9f29f4926779768", [:rebar3], [], "hexpm"},
+  "getopt": {:hex, :getopt, "1.0.1", "c73a9fa687b217f2ff79f68a3b637711bb1936e712b521d8ce466b29cbf7808a", [:rebar3], [], "hexpm"},
+  "goldrush": {:hex, :goldrush, "0.1.9", "f06e5d5f1277da5c413e84d5a2924174182fb108dabb39d5ec548b27424cd106", [:rebar3], [], "hexpm"},
+  "gproc": {:hex, :gproc, "0.6.1", "4579663e5677970758a05d8f65d13c3e9814ec707ad51d8dcef7294eda1a730c", [:rebar3], [], "hexpm"},
+  "ierl": {:hex, :ierl, "0.3.1", "c7d539605ef20ba465f0faeef5ca414cf00983bb0da98a7be277501f290eb1ba", [:rebar3], [{:getopt, "~>1.0.1", [hex: :getopt, repo: "hexpm", optional: false]}, {:jsx, "~>2.9.0", [hex: :jsx, repo: "hexpm", optional: false]}, {:jupyter, "0.2.0", [hex: :jupyter, repo: "hexpm", optional: false]}, {:lager, "~>3.6.3", [hex: :lager, repo: "hexpm", optional: false]}, {:lfe, "~>1.2.0", [hex: :lfe, repo: "hexpm", optional: false]}], "hexpm"},
+  "iso8601": {:hex, :iso8601, "1.3.1", "d1cee73f56d71c35590c6b2db2074873bf410babaab768f6ea566366d8ca4810", [:rebar3], [], "hexpm"},
+  "jsx": {:hex, :jsx, "2.9.0", "d2f6e5f069c00266cad52fb15d87c428579ea4d7d73a33669e12679e203329dd", [:mix, :rebar3], [], "hexpm"},
+  "jupyter": {:hex, :jupyter, "0.2.0", "ad8fc45613f016db28935539ac71d8f1fbd996928f0e486b1e451ba2fd9714ac", [:rebar3], [{:chumak, "~>1.3.0", [hex: :chumak, repo: "hexpm", optional: false]}, {:gproc, "~>0.6.1", [hex: :gproc, repo: "hexpm", optional: false]}, {:iso8601, "~>1.3.1", [hex: :iso8601, repo: "hexpm", optional: false]}, {:jsx, "~>2.9.0", [hex: :jsx, repo: "hexpm", optional: false]}, {:lager, "~>3.6.2", [hex: :lager, repo: "hexpm", optional: false]}, {:uuid, "~>1.7.3", [hex: :uuid_erl, repo: "hexpm", optional: false]}], "hexpm"},
+  "lager": {:hex, :lager, "3.6.3", "fe78951d174616273f87f0dbc3374d1430b1952e5efc4e1c995592d30a207294", [:rebar3], [{:goldrush, "0.1.9", [hex: :goldrush, repo: "hexpm", optional: false]}], "hexpm"},
+  "lfe": {:hex, :lfe, "1.2.0", "257708859c0a6949f174cecee6f08bb5d6f08c0f97ec7b75c07072014723ecbc", [:rebar3], [], "hexpm"},
+  "quickrand": {:hex, :quickrand, "1.7.3", "0e4fb48fac904fe0c6e21d7e8c31a288a0700e1e81a35b38b649fc119079755d", [:rebar3], [], "hexpm"},
+  "uuid": {:hex, :uuid_erl, "1.7.3", "c5df97d1a3d626235c2415e74053c47b2138bb863c5cd802ab5caecb8ecc019f", [:rebar3], [{:quickrand, "~> 1.7.3", [hex: :quickrand, repo: "hexpm", optional: false]}], "hexpm"},
+}
